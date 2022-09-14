@@ -1,0 +1,40 @@
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.post {
+  position: fixed;
+  overflow: auto;
+  z-index: 100;
+  max-width: 50%;
+  max-height: 80%;
+  top: 10%;
+  left: 25%;
+  right: 25%;
+  bottom: 10%;
+  height: fit-content;
+  background-color: @greyF4;
+  border-radius: 5px;
+  border: 1px solid @greyC4;
+  padding: 50px;
+  &:hover {
+    cursor: default;
+  }
+}
+
+.title {
+    text-align: center;
+}
+
+.content {
+    margin: 0 auto;
+    background-color: inherit;
+}

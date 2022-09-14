@@ -1,0 +1,39 @@
+.commentCard {
+    display: flex;
+    padding: 40px 0 0 20px;
+}
+
+.contentContainer {
+    flex-basis: 100%;
+    > :not(:last-child) {
+        margin-bottom: 20px;
+    }
+}
+
+.controllContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.vertical {
+    height: 100%;
+    border-left: 3px solid @greyD9;
+    align-self: center;
+}
+
+.actionContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    > :not(:last-child) {
+        margin-right: 25px;
+    }
+    
+}
+
+.actionButton {
+    svg {
+        width: 15px;
+        height: 15px;
+    }
+}
